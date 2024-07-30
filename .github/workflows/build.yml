@@ -36,9 +36,9 @@ jobs:
         with:
           push: true
           tags: |
-            ghcr.io/itsmng/itsm-ng:${{ github.ref_name }}
-            ghcr.io/itsmng/itsm-ng:latest
-            docker.io/itsmng/itsm-ng:${{ github.ref_name }}
-            docker.io/itsmng/itsm-ng:latest
+            ghcr.io/minzords/itsm-ng:${{ github.ref_name }}
+            ghcr.io/minzords/itsm-ng:latest
+            docker.io/minzords/itsm-ng:${{ github.ref_name }}
+            docker.io/minzords/itsm-ng:latest
           context: latest
           platforms: linux/amd64,linux/arm64
